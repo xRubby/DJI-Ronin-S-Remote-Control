@@ -44,7 +44,7 @@ Al primo avvio l'ESP32 crea automaticamente una rete:
 ```text
 SSID: RoninControl_Setup
 IP:   192.168.4.1
-
+```
 Collegati alla rete e apri:
 http://192.168.4.1
 
