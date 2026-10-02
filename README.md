@@ -66,6 +66,7 @@ accedere alle impostazioni Wi-Fi
 I dati del controller vengono inviati all'ESP32 tramite WebSocket a circa 50 Hz.
 
 ## Architettura
+
               🎮 GAMEPAD
                    │
                    ▼
@@ -81,8 +82,8 @@ I dati del controller vengono inviati all'ESP32 tramite WebSocket a circa 50 Hz.
               │         │
               ▼         ▼
            🤖 Ronin   🎥 Camera
-
-##📦 Librerie
+           
+## 📦 Librerie
 Nel repository è presente una cartella libraries contenente le librerie necessarie:
 libraries/
 ├── WebSocketsServer/
@@ -101,7 +102,7 @@ Documenti/
 
 Dopo aver copiato le librerie, riavvia Arduino IDE.
 
-##🚀 Installazione
+## 🚀 Installazione
 Clona o scarica il repository.
 Copia le tre librerie dalla cartella libraries/ del progetto in Documenti/Arduino/libraries/.
 Apri RoninControl.ino con Arduino IDE.
@@ -111,6 +112,6 @@ Collegati alla rete RoninControl_Setup.
 Apri 192.168.4.1 e configura il Wi-Fi.
 Collega il gamepad al dispositivo utilizzato per il controllo.
 Apri l'indirizzo IP assegnato all'ESP32.
-##⚠️ Note
+## ⚠️ Note
 Progetto pensato principalmente per uso DIY e sperimentale.
 Verifica sempre la compatibilità del tuo Ronin e della videocamera LANC e controlla attentamente i collegamenti elettrici prima dell'utilizzo.
