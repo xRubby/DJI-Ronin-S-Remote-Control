@@ -1,6 +1,6 @@
-# 🎮 RoninControl
+# 🎮 Ronin Control
 
-**RoninControl** è un sistema di controllo wireless basato su **ESP32** per comandare un **DJI Ronin** e una videocamera compatibile **LANC** tramite un normale gamepad.
+**Ronin Control** è un sistema di controllo wireless basato su **ESP32** per comandare un **DJI Ronin** e una videocamera compatibile **LANC** tramite un normale gamepad.
 
 Il controllo avviene direttamente dal browser: il gamepad viene letto tramite la **Gamepad API** e i comandi vengono inviati all'ESP32 tramite **WebSocket**.
 
@@ -93,8 +93,6 @@ Nel repository sono incluse le librerie necessarie:
 
 Le librerie devono essere copiate nella cartella `libraries` della propria installazione Arduino.
 
-Su Windows, il percorso è normalmente:
-
 `Documenti/Arduino/libraries/`
 
 Quindi la struttura dovrà essere:
@@ -124,6 +122,7 @@ Apri 192.168.4.1 e configura il Wi-Fi.
 Collega il gamepad al dispositivo utilizzato per il controllo.
 
 Apri l'indirizzo IP assegnato all'ESP32.
+
 ## ⚠️ Note
 Progetto pensato principalmente per uso DIY e sperimentale.
 Verifica sempre la compatibilità del tuo Ronin e della videocamera LANC e controlla attentamente i collegamenti elettrici prima dell'utilizzo.
